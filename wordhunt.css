@@ -1,0 +1,181 @@
+* {
+				margin:0px;
+				padding:0px;
+			}
+			.heading {
+				width:100%;	
+				height:100px; 
+			}
+			.heading h1 {
+				font-family: 'Griffy', sans-serif;
+				font-size:80px;
+				text-align:center;
+				background: linear-gradient(to right, #000000, #e74c3c); 
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+			}
+			.bg {	
+				width:100%;
+				height:738px;
+				background-image:url('https://img.freepik.com/premium-vector/pixel-art-game-background-grass-sky-clouds_210544-60.jpg');
+				background-size:100% 100%;
+				position:relative;
+			}
+			#input {
+				height:60px;
+				width:500px;
+				position:absolute;
+				bottom:30px;
+				margin-left:30%;
+				font-size:30px;
+			}
+			#stopp{
+			    width:100px;
+				margin-left:26%;
+			    position:absolute;
+				
+			}
+			#ans{
+				font-size:40px;
+				margin-left:15%;
+				font-family: 'Pixelify Sans', sans-serif;
+			    background: linear-gradient(to right, #ff0084, #33001b);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				font-weight:bold;
+				position:absolute;
+			    bottom:0px;
+				
+			}
+			#stopp2{
+			    width:100px;
+			    margin-left:36%;
+			    position:absolute;
+            }
+			#ans2{
+				font-size:40px;
+				margin-left:15%;
+				font-family: 'Pixelify Sans', sans-serif;
+				  background: linear-gradient(to right, #ff0084, #33001b);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				font-weight:bold;
+				position:absolute;
+			    bottom:0px;
+			}
+			#stopp3{
+			    width:100px;
+				margin-left:46%;
+			    position:absolute;
+			}
+			#ans3{
+				font-size:40px;
+				margin-left:15%;
+				font-family: 'Pixelify Sans', sans-serif;
+				  background: linear-gradient(to right, #ff0084, #33001b);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				font-weight:bold;
+				position:absolute;
+			    bottom:0px;
+			}
+			#stopp4{
+			    width:100px;
+				margin-left:56%;
+			    position:absolute;
+			}
+			#ans4{
+				font-size:40px;
+				margin-left:15%;
+				font-family: 'Pixelify Sans', sans-serif;
+				background: linear-gradient(to right, #642b73, #c6426e);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				font-weight:bold;
+				position:absolute;
+			    bottom:0px;
+			}
+			#over {
+				height:100%;
+				width:100%;
+				background-image:url('https://s3.amazonaws.com/bhala.gifs/memes/Ytz_T_Vgh_F_Pman_Jjb_66ecc244ae.gif');
+				background-size:100% 100%;
+				position:absolute;
+				top:0px;
+				margin-left:0%;
+				display:none;
+			}
+			#win{
+			    height:100%;
+				width:100%;
+                background-image:url('https://static.vecteezy.com/system/resources/previews/011/234/047/original/you-win-video-game-vector.jpg');
+				background-size:100% 100%;
+				position:absolute;
+				top:0px;
+				margin-left:0%;
+				display:none;
+			}
+			.restart{
+			    position:fixed;
+			    margin-left:45%;
+			    bottom:50px;
+			    animation:none;
+			    font-weight:bold;
+			    padding:10px 15px;
+			    font-size:22px;
+				font-family:'Griffy', sans-serif;
+			}
+			.restart a{
+			    text-decoration:none;
+			    color:black;
+			}
+			.restart:hover{
+				background: linear-gradient(to right, #eacda3, #d6ae7b);
+				transition: background 1s ;
+			    transition-timing-function: ease-in;
+			}
+			.board{
+			    height:100px;
+			    width:200px;
+			    background-color:lightgreen;
+			    position:absolute;
+			    top:20px;
+			    right:30px;
+				padding:5px 30px;
+			    box-shadow: 5px 5px 15px 5px #0F0F0F;
+			}
+			.board h3{
+			    font-size:30px;
+			    font-family:'Griffy', sans-serif;
+				color:black;
+			}
+			#tim{
+			    height:50px;
+			    width:50px;
+			    position:absolute;
+			    top:20px;
+			    right:0px;
+			    font-size:40px;
+			    font-family:'Pixelify Sans', sans-serif;
+			}
+			.score{
+			    height:50px;
+			    width:250px;
+			    background-color:white;
+				position:absolute;
+				margin-left:40%;
+			    bottom:130px;
+				font-size:30px;
+				font-family:'Griffy', sans-serif;
+				text-align:center;
+			}
+			#mic{
+				height:60px;
+				width:50px;
+				margin-top:35.5%;
+				margin-left:25%;
+			}
+			#mic img{
+				height:100%;
+				width:100%;
+			}

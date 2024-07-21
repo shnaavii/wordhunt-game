@@ -1,0 +1,56 @@
+<html>
+	<head>
+					<title> wordhunt gamee</title>
+					<link rel="preconnect" href="https://fonts.googleapis.com">
+					<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+					<link rel="preconnect" href="https://fonts.googleapis.com">
+					<link rel="preconnect" href="https://fonts.googleapis.com">
+					<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+					<link href="https://fonts.googleapis.com/css2?family=Griffy&family=Pixelify+Sans:wght@700&display=swap" rel="stylesheet">
+					<link rel="stylesheet" href="wordhunt.css">
+	</head>
+		<body id="main">
+		
+			<div class="bg" id="bgg" >   <!-- main div -->
+				<div class="heading">
+					<h1> WORD HUNT </h1>
+					<div class="board">	    <!-- score board -->
+						<h3>SCORE BOARD</h3>
+						<p id="tim">0</p>
+					</div>
+				</div>
+				<div id="stopp">	
+					<p id="ans"></p>   <!-- array 1 -->
+				</div>
+				<div id="stopp2">	
+					<p id="ans2"></p>  <!-- array 2 -->
+				</div>
+				<div id="stopp3">	
+					<p id="ans3"></p>  <!-- array 3 -->
+				</div>
+				<div id="stopp4">	
+					<p id="ans4"></p>  <!-- array 4 -->
+				</div>
+			
+				<input type="text" id="input" > 
+				
+			</div>
+		    
+		    <div id="over">            <!--  gameover -->
+				<button class="restart"> 
+					<a href="wordhunt-game.html">START</a>
+			    </button>
+				<div class="score">
+					your score is
+					<span id="score"></span> 
+				</div>
+			</div>
+			<div id="win">       <!-- winner -->
+			    <button class="restart" style="font-family: 'Pixelify Sans', sans-serif;"> 
+					<a href="wordhunt/wordhunt-game.html">RESTART</a>
+			   </button>
+			   <div class="score"> your score is <span id="score2"></span> </div>
+			</div>
+				<script src="wordhunt.js">  </script>
+		</body>  
+</html>
